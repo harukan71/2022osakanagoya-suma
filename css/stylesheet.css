@@ -1,0 +1,182 @@
+/* 演習に必要な設定（消さないでください） */
+body, h1, h2, p, form, input, ul {
+  margin: 0;
+  padding: 0;
+}
+/* 設定ここまで */
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.top-img {
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+
+header {
+  background-color: #108ee9;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 80px 0px 40px;
+  box-sizing: border-box;
+}
+
+.header-logo {
+  text-align: center;
+}
+
+.logo-icon {
+  width: 80px;
+}
+
+.logo-text {
+  width: 130px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.menu-list a {
+  color: #ffffff;
+  display: block;
+  padding: 16px 24px;
+}
+
+.menu-list a:hover {
+  background-color: #8fb7cd;
+}
+
+.menu-list-suma {
+  background-color: #108ee9;
+  height: 15px;
+  width: auto;
+}
+
+
+
+.menu-list-suma {
+  background-color: #8fb7cd;
+  height: auto;
+  width: auto;
+  
+}
+
+.menu-list-suma li {
+  font-size: 8px;
+  color: #ffffff;
+  padding-left: 20px;
+}
+/* menu-iconクラスを非表示にしてください */
+.menu-icon {
+  display: none;
+}
+
+main {
+  margin-left: 200px;
+  padding: 40px 40px 0px 40px;
+}
+
+.news-wrapper {
+  margin-bottom: 32px;
+}
+
+.news {
+  color: #000000;
+
+  
+}
+
+.zeep {
+  color:#000000;
+}
+
+.zeep:hover {
+  color:#808080;
+}
+
+
+
+p {
+  font-size: 18px;
+}
+
+.news-category {
+  color: #ec654f;
+  margin-right: 20px;
+}
+
+.news-title:hover {
+  text-decoration: underline;
+}
+
+.recipe-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  gap: 16px;
+  margin-bottom: 80px;
+}
+
+.recipe {
+  color: #000000;
+  display: block;
+  border: 2px solid #c4c4c4;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.cooking-time {
+  color: #808080;
+  display: flex;
+}
+
+.cooking-time span {
+  margin-right: 8px;
+}
+
+.recipe:hover {
+  border: 2px solid #ec654f;
+}
+
+/* blog-titleクラスの見た目を調整してください */
+.blog-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* blog-contentクラスの<p>要素の余白を調整してください */
+.blog-content p {
+  margin-bottom: 24px;
+}
+
+
+/* read-moreクラスの見た目を調整してください */
+.read-more {
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 18px;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 16px 40px;
+}
+
+
+/* read-moreクラスの上にカーソルを乗せた時、背景の色を指定してください */
+.read-more:hover {
+  background-color: #808080;
+}
+
