@@ -30,8 +30,5 @@
     padding: 16px 16px 0px;
   }
 }
-@media (max-width: 640px) {
-  .news {
-    display: block;
-  }
+
 }
