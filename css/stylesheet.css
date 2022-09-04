@@ -78,9 +78,10 @@ a {
 }
 
 .menu-list-suma li {
-  font-size: 8px;
+  font-size: 12px;
   color: #ffffff;
   padding-left: 20px;
+  padding-top: 5px;
 }
 /* menu-iconクラスを非表示にしてください */
 .menu-icon {
