@@ -70,6 +70,7 @@ a {
 
 .menu-list-suma {
   background-color: #333c5e;
+  text-decoration: none;
   color: #ffffff;
   height: 80px;
   width: auto;
@@ -79,11 +80,14 @@ a {
 }
 
 .menu-list-suma ul {
+  text-decoration: none;
   color: #ffffff; 
+  
 }
 
 .menu-list-suma li {
   font-size: 12px;
+  text-decoration: none;
   color: #ffffff;
   padding-left: 20px;
   padding-top: 5px;
