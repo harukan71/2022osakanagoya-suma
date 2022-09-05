@@ -69,12 +69,17 @@ a {
 
 
 .menu-list-suma {
-  background-color: #8fb7cd;
+  background-color: #333c5e;
+  color: #ffffff;
   height: 80px;
   width: auto;
   margin-bottom: 10px;
   border-radius: 10px;
   
+}
+
+.menu-list-suma ul {
+  color: #ffffff; 
 }
 
 .menu-list-suma li {
