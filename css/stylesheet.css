@@ -85,6 +85,10 @@ a {
   
 }
 
+.menu-list-suma a {
+  color: #ffffff;
+}
+
 .menu-list-suma li {
   font-size: 12px;
   text-decoration: none;
